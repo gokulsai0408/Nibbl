@@ -1,0 +1,69 @@
+name: forkcast
+description: "Forkcast - AI calorie & nutrition tracker. Snap, say or type what you eat."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # State, navigation, storage, networking
+  flutter_riverpod: ^3.5.0
+  go_router: ^18.1.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  dio: ^5.11.1
+  flutter_dotenv: ^6.0.1
+
+  # Device features
+  image_picker: ^1.2.4
+  speech_to_text: ^7.5.0
+  mobile_scanner: ^7.5.0
+  flutter_local_notifications: ^22.3.3
+  timezone: ^0.11.2
+  flutter_timezone: ^5.1.1
+  path_provider: ^2.1.6
+  share_plus: ^13.3.1
+  file_picker: ^13.3.2
+
+  # UI
+  fl_chart: ^1.3.0
+  flutter_animate: ^4.5.2
+  confetti: ^0.8.0
+  shimmer: ^4.0.0
+  google_fonts: ^8.2.1
+
+  # Utils
+  uuid: ^4.6.0
+  intl: ^0.20.2
+  audioplayers: ^6.8.1
+  health: ^13.3.2
+  supabase_flutter: ^2.18.3
+  home_widget: ^0.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/sounds/
+
+# App icon: `dart run flutter_launcher_icons` regenerates all platform icons.
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/app_icon.png
+  remove_alpha_ios: true
+  min_sdk_android: 26
+  adaptive_icon_background: assets/icon/app_icon_background.png
+  adaptive_icon_foreground: assets/icon/app_icon_foreground.png
+  adaptive_icon_monochrome: assets/icon/app_icon_monochrome.png

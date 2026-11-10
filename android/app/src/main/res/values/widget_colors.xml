@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_bg">#FFFFFFFF</color>
+    <color name="widget_outline">#FFF2E2D6</color>
+    <color name="widget_text">#FF2B1F1A</color>
+    <color name="widget_muted">#FF7A6961</color>
+    <color name="widget_primary">#FFDA4A22</color>
+    <color name="widget_on_primary">#FFFFFFFF</color>
+    <color name="widget_track">#FFF7EBE1</color>
+    <color name="widget_water">#FF2EB5F0</color>
+    <string name="widget_description">Calories left, water and quick logging</string>
+</resources>

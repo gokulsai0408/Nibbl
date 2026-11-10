@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="widget_bg">#FF151935</color>
+    <color name="widget_outline">#FF262C52</color>
+    <color name="widget_text">#FFEEF0FF</color>
+    <color name="widget_muted">#FFA0A5CC</color>
+    <color name="widget_primary">#FF4FE3B5</color>
+    <color name="widget_on_primary">#FF04261C</color>
+    <color name="widget_track">#FF1E2344</color>
+    <color name="widget_water">#FF2EB5F0</color>
+</resources>
